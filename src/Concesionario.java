@@ -2,20 +2,20 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class Concesionario {
-    private List<Vehiculo> Inventario = new ArrayList<>(); // Lista de vehículos disponibles
+    private List<Vehiculo> inventario = new ArrayList<>(); // Lista de vehículos disponibles
     private List<Venta> ventas = new ArrayList<>(); // Lista de ventas realizadas
 
     // Método para agregar un vehículo al inventario
     public void agregarVehiculo(Vehiculo vehiculo) {
-        Inventario.add(vehiculo);
+        inventario.add(vehiculo);
     }
 
     // Método para realizar una venta de un vehículo
     public void realizarVenta(String codigoVehiculo, double monto, String apellido, String nombre, String documento) {
-        Vehiculo vehiculoVendido = *****;
+        Vehiculo vehiculoVendido = inventario;
         // Buscar el vehículo en el inventario
         for (Vehiculo v : inventario) {
-            if (v.getCodigo().equals(codigo*******)) {
+            if (v.getCodigo().equals(codigo.vehiculo)) {
                 vehiculoVendido = v;
                 break;
             }
